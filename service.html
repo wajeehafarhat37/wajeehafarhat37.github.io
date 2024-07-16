@@ -1,228 +1,510 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 
-<head>
-    <meta charset="utf-8">
-    <title>CakeZone - Cake Shop Website Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portal Home - Nexus Technologies</title>
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <!-- Styling -->
+<link href="/clientarea/assets/fonts/css/open-sans-family.css" rel="stylesheet" type="text/css" />
+<link href="/clientarea/assets/fonts/css/raleway-family.css" rel="stylesheet" type="text/css" />
+<link href="/clientarea/templates/six/css/all.min.css?v=e8178a" rel="stylesheet">
+<link href="/clientarea/assets/css/fontawesome-all.min.css" rel="stylesheet">
+<link href="/clientarea/templates/six/css/custom.css" rel="stylesheet">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@500;600;700&family=Pacifico&display=swap" rel="stylesheet"> 
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+<script type="text/javascript">
+    var csrfToken = '5581990018efd83274cc5f2c4eaf94d4031211f6',
+        markdownGuide = 'Markdown Guide',
+        locale = 'en',
+        saved = 'saved',
+        saving = 'autosaving',
+        whmcsBaseUrl = "/clientarea",
+        requiredText = 'Required',
+        recaptchaSiteKey = "6LeGLbAUAAAAAH3L1SQ9_EzbjJfuVoBcy1vUICr2";
+</script>
+<script src="/clientarea/templates/six/js/scripts.min.js?v=e8178a"></script>
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript">
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-143268322-4']);
+_gaq.push(['_setDomainName', 'nexus.pk']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+
+
+
 </head>
+<body data-phone-cc-input="1">
 
-<body>
-    <!-- Topbar Start -->
-    <div class="container-fluid px-0 d-none d-lg-block">
-        <div class="row gx-0">
-            <div class="col-lg-4 text-center bg-secondary py-3">
-                <div class="d-inline-flex align-items-center justify-content-center">
-                    <i class="bi bi-envelope fs-1 text-primary me-3"></i>
-                    <div class="text-start">
-                        <h6 class="text-uppercase mb-1">Email Us</h6>
-                        <span>info@example.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 text-center bg-primary border-inner py-3">
-                <div class="d-inline-flex align-items-center justify-content-center">
-                    <a href="index.html" class="navbar-brand">
-                        <h1 class="m-0 text-uppercase text-white"><i class="fa fa-birthday-cake fs-1 text-dark me-3"></i>CakeZone</h1>
+
+
+<section id="header">
+    <div class="container">
+        <ul class="top-nav">
+                                        <li>
+                    <a href="/clientarea/clientarea.php">Login</a>
+                </li>
+                                    <li>
+                        <a href="/clientarea/register.php">Register</a>
+                    </li>
+                                <li class="primary-action">
+                    <a href="/clientarea/cart.php?a=view" class="btn">
+                        View Cart
                     </a>
-                </div>
-            </div>
-            <div class="col-lg-4 text-center bg-secondary py-3">
-                <div class="d-inline-flex align-items-center justify-content-center">
-                    <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
-                    <div class="text-start">
-                        <h6 class="text-uppercase mb-1">Call Us</h6>
-                        <span>+012 345 6789</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+                </li>
+                                </ul>
+
+                    <a href="/clientarea/index.php" class="logo"><img src="/clientarea/assets/img/logo.png" alt="Nexus Technologies"></a>
+        
     </div>
-    <!-- Topbar End -->
+</section>
 
+<section id="main-menu">
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-0">
-        <a href="index.html" class="navbar-brand d-block d-lg-none">
-            <h1 class="m-0 text-uppercase text-white"><i class="fa fa-birthday-cake fs-1 text-primary me-3"></i>CakeZone</h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto mx-lg-auto py-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link">About Us</a>
-                <a href="menu.html" class="nav-item nav-link">Menu & Pricing</a>
-                <a href="team.html" class="nav-item nav-link">Master Chefs</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="service.html" class="dropdown-item active">Our Service</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+    <nav id="nav" class="navbar navbar-default navbar-main" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-nav">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="primary-nav">
+
+                <ul class="nav navbar-nav">
+
+                        <li menuItemName="Home" class="" id="Primary_Navbar-Home">
+        <a href="/clientarea/index.php">
+                        Home
+                                </a>
+            </li>
+    <li menuItemName="Store" class="dropdown" id="Primary_Navbar-Store">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Store
+                        &nbsp;<b class="caret"></b>        </a>
+                    <ul class="dropdown-menu">
+                            <li menuItemName="Browse Products Services" id="Primary_Navbar-Store-Browse_Products_Services">
+                    <a href="/clientarea/index.php?rp=/store">
+                                                Browse All
+                                            </a>
+                </li>
+                            <li menuItemName="Shop Divider 1" class="nav-divider" id="Primary_Navbar-Store-Shop_Divider_1">
+                    <a href="">
+                                                -----
+                                            </a>
+                </li>
+                            <li menuItemName="FREE AE DOMAIN + HOST" id="Primary_Navbar-Store-FREE_AE_DOMAIN_+_HOST">
+                    <a href="/clientarea/index.php?rp=/store/free-ae-domain-host">
+                                                FREE AE DOMAIN + HOST
+                                            </a>
+                </li>
+                            <li menuItemName="FREE PK DOMAIN + HOST" id="Primary_Navbar-Store-FREE_PK_DOMAIN_+_HOST">
+                    <a href="/clientarea/index.php?rp=/store/free-pk-domain-host">
+                                                FREE PK DOMAIN + HOST
+                                            </a>
+                </li>
+                            <li menuItemName="Simplified Shared Hosting" id="Primary_Navbar-Store-Simplified_Shared_Hosting">
+                    <a href="/clientarea/index.php?rp=/store/basic-hosting">
+                                                Simplified Shared Hosting
+                                            </a>
+                </li>
+                            <li menuItemName="Microsoft Office Exchange Plan" id="Primary_Navbar-Store-Microsoft_Office_Exchange_Plan">
+                    <a href="/clientarea/index.php?rp=/store/microsoft-office-exchange-plan">
+                                                Microsoft Office Exchange Plan
+                                            </a>
+                </li>
+                            <li menuItemName="Hybrid Cloud VM Pakistan" id="Primary_Navbar-Store-Hybrid_Cloud_VM_Pakistan">
+                    <a href="/clientarea/index.php?rp=/store/hybrid-cloud-vm-pakistan">
+                                                Hybrid Cloud VM Pakistan
+                                            </a>
+                </li>
+                            <li menuItemName="Dedicated Server (Pakistan Based)" id="Primary_Navbar-Store-Dedicated_Server_(Pakistan_Based)">
+                    <a href="/clientarea/index.php?rp=/store/dedicated-server-pakistan-based">
+                                                Dedicated Server (Pakistan Based)
+                                            </a>
+                </li>
+                            <li menuItemName="Dedicated Server (International)" id="Primary_Navbar-Store-Dedicated_Server_(International)">
+                    <a href="/clientarea/index.php?rp=/store/dedicated-server-international">
+                                                Dedicated Server (International)
+                                            </a>
+                </li>
+                            <li menuItemName="Business Hosting (International)" id="Primary_Navbar-Store-Business_Hosting_(International)">
+                    <a href="/clientarea/index.php?rp=/store/business-hosting-international">
+                                                Business Hosting (International)
+                                            </a>
+                </li>
+                            <li menuItemName="Business Hosting (Pakistan Based)" id="Primary_Navbar-Store-Business_Hosting_(Pakistan_Based)">
+                    <a href="/clientarea/index.php?rp=/store/business-hosting-pakistan-based">
+                                                Business Hosting (Pakistan Based)
+                                            </a>
+                </li>
+                            <li menuItemName="Windows .NET Hosting" id="Primary_Navbar-Store-Windows_.NET_Hosting">
+                    <a href="/clientarea/index.php?rp=/store/windows-net-hosting">
+                                                Windows .NET Hosting
+                                            </a>
+                </li>
+                            <li menuItemName="Advance High End Business Hosting" id="Primary_Navbar-Store-Advance_High_End_Business_Hosting">
+                    <a href="/clientarea/index.php?rp=/store/advance-high-end-business-hosting">
+                                                Advance High End Business Hosting
+                                            </a>
+                </li>
+                            <li menuItemName="Nexus Next Generation Mail Solution - NNGMS" id="Primary_Navbar-Store-Nexus_Next_Generation_Mail_Solution_-_NNGMS">
+                    <a href="/clientarea/index.php?rp=/store/nexus-next-generation-mail-solution-nngms">
+                                                Nexus Next Generation Mail Solution - NNGMS
+                                            </a>
+                </li>
+                            <li menuItemName="SSL Certificates" id="Primary_Navbar-Store-SSL_Certificates">
+                    <a href="/clientarea/index.php?rp=/store/ssl-certificates">
+                                                SSL Certificates
+                                            </a>
+                </li>
+                            <li menuItemName="Web Development" id="Primary_Navbar-Store-Web_Development">
+                    <a href="/clientarea/index.php?rp=/store/web-development">
+                                                Web Development
+                                            </a>
+                </li>
+                            <li menuItemName="spamexperts" id="Primary_Navbar-Store-spamexperts">
+                    <a href="/clientarea/index.php?rp=/store/email-spam-filtering">
+                                                E-mail Services
+                                            </a>
+                </li>
+                            <li menuItemName="ox" id="Primary_Navbar-Store-ox">
+                    <a href="/clientarea/index.php?rp=/store/professional-email">
+                                                Professional Email
+                                            </a>
+                </li>
+                            <li menuItemName="Shop Divider 2" class="nav-divider" id="Primary_Navbar-Store-Shop_Divider_2">
+                    <a href="">
+                                                -----
+                                            </a>
+                </li>
+                            <li menuItemName="Register a New Domain" id="Primary_Navbar-Store-Register_a_New_Domain">
+                    <a href="/clientarea/cart.php?a=add&domain=register">
+                                                Register a New Domain
+                                            </a>
+                </li>
+                            <li menuItemName="Transfer a Domain to Us" id="Primary_Navbar-Store-Transfer_a_Domain_to_Us">
+                    <a href="/clientarea/cart.php?a=add&domain=transfer">
+                                                Transfer Domains to Us
+                                            </a>
+                </li>
+                        </ul>
+            </li>
+    <li menuItemName="Announcements" class="" id="Primary_Navbar-Announcements">
+        <a href="/clientarea/index.php?rp=/announcements">
+                        Announcements
+                                </a>
+            </li>
+    <li menuItemName="Knowledgebase" class="" id="Primary_Navbar-Knowledgebase">
+        <a href="/clientarea/index.php?rp=/knowledgebase">
+                        Knowledgebase
+                                </a>
+            </li>
+    <li menuItemName="Network Status" class="" id="Primary_Navbar-Network_Status">
+        <a href="/clientarea/serverstatus.php">
+                        Network Status
+                                </a>
+            </li>
+    <li menuItemName="Contact Us" class="" id="Primary_Navbar-Contact_Us">
+        <a href="/clientarea/contact.php">
+                        Contact Us
+                                </a>
+            </li>
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+
+                        <li menuItemName="Account" class="dropdown" id="Secondary_Navbar-Account">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Account
+                        &nbsp;<b class="caret"></b>        </a>
+                    <ul class="dropdown-menu">
+                            <li menuItemName="Login" id="Secondary_Navbar-Account-Login">
+                    <a href="/clientarea/clientarea.php">
+                                                Login
+                                            </a>
+                </li>
+                            <li menuItemName="Register" id="Secondary_Navbar-Account-Register">
+                    <a href="/clientarea/register.php">
+                                                Register
+                                            </a>
+                </li>
+                            <li menuItemName="Divider" class="nav-divider" id="Secondary_Navbar-Account-Divider">
+                    <a href="">
+                                                -----
+                                            </a>
+                </li>
+                            <li menuItemName="Forgot Password?" id="Secondary_Navbar-Account-Forgot_Password?">
+                    <a href="/clientarea/index.php?rp=/password/reset">
+                                                Forgot Password?
+                                            </a>
+                </li>
+                        </ul>
+            </li>
+
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
         </div>
     </nav>
-    <!-- Navbar End -->
 
+</section>
 
-    <!-- Page Header Start -->
-    <div class="container-fluid bg-dark bg-img p-5 mb-5">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h1 class="display-4 text-uppercase text-white">Services</h1>
-                <a href="">Home</a>
-                <i class="far fa-square text-primary px-2"></i>
-                <a href="">Services</a>
-            </div>
-        </div>
-    </div>
-    <!-- Page Header End -->
-
-
-    <!-- Service Start -->
-    <div class="container-fluid service position-relative px-5" style="margin-top: 90px;">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-6">
-                    <div class="bg-primary border-inner text-center text-white p-5">
-                        <h4 class="text-uppercase mb-3">Birthday Cake</h4>
-                        <p>Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo amet tempor amet kasd lorem dolor ipsum</p>
-                        <a class="text-uppercase text-dark" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="bg-primary border-inner text-center text-white p-5">
-                        <h4 class="text-uppercase mb-3">Wedding Cake</h4>
-                        <p>Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo amet tempor amet kasd lorem dolor ipsum</p>
-                        <a class="text-uppercase text-dark" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="bg-primary border-inner text-center text-white p-5">
-                        <h4 class="text-uppercase mb-3">Custom Cake</h4>
-                        <p>Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo amet tempor amet kasd lorem dolor ipsum</p>
-                        <a class="text-uppercase text-dark" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-6 text-center">
-                    <h1 class="text-uppercase text-light mb-4">30% Discount For This Summer</h1>
-                    <a href="" class="btn btn-primary border-inner py-3 px-5">Order Now</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service Start -->
-
-
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark bg-img text-secondary" style="margin-top: 235px">
-        <div class="container">
-            <div class="row gx-5">
-                <div class="col-lg-4 col-md-6 mt-lg-n5">
-                    <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary border-inner p-4">
-                        <a href="index.html" class="navbar-brand">
-                            <h1 class="m-0 text-uppercase text-white"><i class="fa fa-birthday-cake fs-1 text-dark me-3"></i>CakeZone</h1>
-                        </a>
-                        <p class="mt-3">Lorem diam sit erat dolor elitr et, diam lorem justo labore amet clita labore stet eos magna sit. Elitr dolor eirmod duo tempor lorem, elitr clita ipsum sea. Nonumy rebum et takimata ea takimata amet gubergren, erat rebum magna lorem stet eos. Diam amet et kasd eos duo dolore no.</p>
-                    </div>
-                </div>
-                <div class="col-lg-8 col-md-6">
-                    <div class="row gx-5">
-                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
-                            <h4 class="text-primary text-uppercase mb-4">Get In Touch</h4>
-                            <div class="d-flex mb-2">
-                                <i class="bi bi-geo-alt text-primary me-2"></i>
-                                <p class="mb-0">123 Street, New York, USA</p>
-                            </div>
-                            <div class="d-flex mb-2">
-                                <i class="bi bi-envelope-open text-primary me-2"></i>
-                                <p class="mb-0">info@example.com</p>
-                            </div>
-                            <div class="d-flex mb-2">
-                                <i class="bi bi-telephone text-primary me-2"></i>
-                                <p class="mb-0">+012 345 67890</p>
-                            </div>
-                            <div class="d-flex mt-4">
-                                <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                            <h4 class="text-primary text-uppercase mb-4">Quick Links</h4>
-                            <div class="d-flex flex-column justify-content-start">
-                                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
-                                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                                <a class="text-secondary" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                            <h4 class="text-primary text-uppercase mb-4">Newsletter</h4>
-                            <p>Amet justo diam dolor rebum lorem sit stet sea justo kasd</p>
-                            <form action="">
-                                <div class="input-group">
-                                    <input type="text" class="form-control border-white p-3" placeholder="Your Email">
-                                    <button class="btn btn-primary">Sign Up</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid text-secondary py-4" style="background: #111111;">
+    <section id="home-banner">
         <div class="container text-center">
-            <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Your Site Name</a>. All Rights Reserved. Designed by <a class="text-white border-bottom" href="Syeda Wajeeha Farhat"></a></p>
+                            <h2>Begin the search for your perfect domain name...</h2>
+                <form method="post" action="domainchecker.php" id="frmDomainHomepage">
+<input type="hidden" name="token" value="5581990018efd83274cc5f2c4eaf94d4031211f6" />
+                    <input type="hidden" name="transfer" />
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                            <div class="input-group input-group-lg">
+                                <input type="text" class="form-control" name="domain" placeholder="eg. example.com" autocapitalize="none" data-toggle="tooltip" data-placement="left" data-trigger="manual" title="Required" />
+                                <span class="input-group-btn">
+                                                                            <input type="submit" class="btn search" value="Search" />
+                                                                                                                <input type="submit" id="btnTransfer" class="btn transfer" value="Transfer" />
+                                                                    </span>
+                            </div>
+                        </div>
+                    </div>
+
+                                    </form>
+                    </div>
+    </section>
+    <div class="home-shortcuts">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 hidden-sm hidden-xs text-center">
+                    <p class="lead">
+                        How can we help today?
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-8">
+                    <ul>
+                                                    <li>
+                                <a id="btnBuyADomain" href="domainchecker.php">
+                                    <i class="fas fa-globe"></i>
+                                    <p>
+                                        Buy A Domain <span>&raquo;</span>
+                                    </p>
+                                </a>
+                            </li>
+                                                <li>
+                            <a id="btnOrderHosting" href="cart.php">
+                                <i class="far fa-hdd"></i>
+                                <p>
+                                    Order Hosting <span>&raquo;</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="btnMakePayment" href="clientarea.php">
+                                <i class="fas fa-credit-card"></i>
+                                <p>
+                                    Make Payment <span>&raquo;</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="btnGetSupport" href="submitticket.php">
+                                <i class="far fa-envelope"></i>
+                                <p>
+                                    Get Support <span>&raquo;</span>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- Footer End -->
 
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-primary border-inner py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+<section id="main-body">
+    <div class="container">
+        <div class="row">
+
+                <!-- Container for main page display content -->
+        <div class="col-xs-12 main-content">
+            
 
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <h2>News</h2>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+                        <div class="announcement-single">
+                <h3>
+                    <span class="label label-default">
+                        Jul 15th
+                    </span>
+                    <a href="/clientarea/index.php?rp=/announcements/59/Public-Holidays---9th-and-10th-Moharram.html">Public Holidays - 9th & 10th Moharram</a>
+                </h3>
+
+                <blockquote>
+                    <p>
+                                                    <p>Dear Customers,</p>
+<p>As per the government announcement, we shall be observing public<br />holidays on 16th (Tuesday) and 17th (Wednesday) July 2024.</p>
+<p>Sales, Billing &amp; Development staff will not be available, however our<br />Technical Support staff will remain available 24x7 online for assistance.</p>
+<p>Regards,<br />Nexus Technologies<br />UAN: 03000341140</p>
+<p> </p>
+                                            </p>
+                </blockquote>
+
+                            </div>
+                                <div class="announcement-single">
+                <h3>
+                    <span class="label label-default">
+                        Jun 13th
+                    </span>
+                    <a href="/clientarea/index.php?rp=/announcements/58/Holidays-Eid-ul-Adha-2024.html">Holidays: Eid-ul-Adha 2024</a>
+                </h3>
+
+                <blockquote>
+                    <p>
+                                                    Dear Customer,
+Greetings!
+It is to inform you that Nexus Technologies will observe Eid holidays from
+Monday 17 Jun24 to Wednesday 19 Jun24.
+Staff (Sales + Billing + Development) will not be available on coming
+Saturday, Sunday and during Eid holidays.
+However our Technical Support staff will serve 24 x 7 except Chand Raat
+&amp; 1st Day of ...
+                            <a href="/clientarea/index.php?rp=/announcements/58/Holidays-Eid-ul-Adha-2024.html" class="label label-warning">Read More &raquo;</a>
+                                            </p>
+                </blockquote>
+
+                            </div>
+                        
+
+                </div><!-- /.main-content -->
+                            <div class="clearfix"></div>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    <div class="container">
+        <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+        <p>Copyright &copy; 2024 Nexus Technologies. All Rights Reserved.</p>
+    </div>
+</section>
+
+<div id="fullpage-overlay" class="hidden">
+    <div class="outer-wrapper">
+        <div class="inner-wrapper">
+            <img src="/clientarea/assets/img/overlay-spinner.svg">
+            <br>
+            <span class="msg"></span>
+        </div>
+    </div>
+</div>
+
+<div class="modal system-modal fade" id="modalAjax" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content panel-primary">
+            <div class="modal-header panel-heading">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body panel-body">
+                Loading...
+            </div>
+            <div class="modal-footer panel-footer">
+                <div class="pull-left loader">
+                    <i class="fas fa-circle-notch fa-spin"></i>
+                    Loading...
+                </div>
+                <button type="button" class="btn btn-default" data-dismiss="modal">
+                    Close
+                </button>
+                <button type="button" class="btn btn-primary modal-submit">
+                    Submit
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<form action="#" id="frmGeneratePassword" class="form-horizontal">
+    <div class="modal fade" id="modalGeneratePassword">
+        <div class="modal-dialog">
+            <div class="modal-content panel-primary">
+                <div class="modal-header panel-heading">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">
+                        Generate Password
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-danger hidden" id="generatePwLengthError">
+                        Please enter a number between 8 and 64 for the password length
+                    </div>
+                    <div class="form-group">
+                        <label for="generatePwLength" class="col-sm-4 control-label">Password Length</label>
+                        <div class="col-sm-8">
+                            <input type="number" min="8" max="64" value="12" step="1" class="form-control input-inline input-inline-100" id="inputGeneratePasswordLength">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="generatePwOutput" class="col-sm-4 control-label">Generated Password</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="inputGeneratePasswordOutput">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-4">
+                            <button type="submit" class="btn btn-default btn-sm">
+                                <i class="fas fa-plus fa-fw"></i>
+                                Generate new password
+                            </button>
+                            <button type="button" class="btn btn-default btn-sm copy-to-clipboard" data-clipboard-target="#inputGeneratePasswordOutput">
+                                <img src="/clientarea/assets/img/clippy.svg" alt="Copy to clipboard" width="15">
+                                Copy
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        Close
+                    </button>
+                    <button type="button" class="btn btn-primary" id="btnGeneratePasswordInsert" data-clipboard-target="#inputGeneratePasswordOutput">
+                        Copy to clipboard and Insert
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+
 </body>
-
 </html>
