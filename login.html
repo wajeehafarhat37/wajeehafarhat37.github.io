@@ -6,8 +6,7 @@
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="service.css">
-    <title>Portal Home - Nexus Technologies</title>
+    <title>Login - Nexus Technologies</title>
 
     <!-- Styling -->
 <link href="/clientarea/assets/fonts/css/open-sans-family.css" rel="stylesheet" type="text/css" />
@@ -24,7 +23,7 @@
 <![endif]-->
 
 <script type="text/javascript">
-    var csrfToken = '5581990018efd83274cc5f2c4eaf94d4031211f6',
+    var csrfToken = '6e389199cffbfdbb48e2ae1d30145c175176aebd',
         markdownGuide = 'Markdown Guide',
         locale = 'en',
         saved = 'saved',
@@ -276,74 +275,6 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 </section>
 
-    <section id="home-banner">
-        <div class="container text-center">
-                            <h2>Begin the search for your perfect domain name...</h2>
-                <form method="post" action="domainchecker.php" id="frmDomainHomepage">
-<input type="hidden" name="token" value="5581990018efd83274cc5f2c4eaf94d4031211f6" />
-                    <input type="hidden" name="transfer" />
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                            <div class="input-group input-group-lg">
-                                <input type="text" class="form-control" name="domain" placeholder="eg. example.com" autocapitalize="none" data-toggle="tooltip" data-placement="left" data-trigger="manual" title="Required" />
-                                <span class="input-group-btn">
-                                                                            <input type="submit" class="btn search" value="Search" />
-                                                                                                                <input type="submit" id="btnTransfer" class="btn transfer" value="Transfer" />
-                                                                    </span>
-                            </div>
-                        </div>
-                    </div>
-
-                                    </form>
-                    </div>
-    </section>
-    <div class="home-shortcuts">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 hidden-sm hidden-xs text-center">
-                    <p class="lead">
-                        How can we help today?
-                    </p>
-                </div>
-                <div class="col-sm-12 col-md-8">
-                    <ul>
-                                                    <li>
-                                <a id="btnBuyADomain" href="domainchecker.php">
-                                    <i class="fas fa-globe"></i>
-                                    <p>
-                                        Buy A Domain <span>&raquo;</span>
-                                    </p>
-                                </a>
-                            </li>
-                                                <li>
-                            <a id="btnOrderHosting" href="cart.php">
-                                <i class="far fa-hdd"></i>
-                                <p>
-                                    Order Hosting <span>&raquo;</span>
-                                </p>
-                            </a>
-                        </li>
-                        <li>
-                            <a id="btnMakePayment" href="clientarea.php">
-                                <i class="fas fa-credit-card"></i>
-                                <p>
-                                    Make Payment <span>&raquo;</span>
-                                </p>
-                            </a>
-                        </li>
-                        <li>
-                            <a id="btnGetSupport" href="submitticket.php">
-                                <i class="far fa-envelope"></i>
-                                <p>
-                                    Get Support <span>&raquo;</span>
-                                </p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
 <section id="main-body">
@@ -354,52 +285,53 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
         <div class="col-xs-12 main-content">
             
 
+<div class="logincontainer">
 
-    <h2>News</h2>
+    <div class="header-lined">
+    <h1>Login <small>This page is restricted</small></h1>
+    </div>
 
-                        <div class="announcement-single">
-                <h3>
-                    <span class="label label-default">
-                        Jul 15th
-                    </span>
-                    <a href="/clientarea/index.php?rp=/announcements/59/Public-Holidays---9th-and-10th-Moharram.html">Public Holidays - 9th & 10th Moharram</a>
-                </h3>
+    
+    <div class="providerLinkingFeedback"></div>
 
-                <blockquote>
-                    <p>
-                                                    <p>Dear Customers,</p>
-<p>As per the government announcement, we shall be observing public<br />holidays on 16th (Tuesday) and 17th (Wednesday) July 2024.</p>
-<p>Sales, Billing &amp; Development staff will not be available, however our<br />Technical Support staff will remain available 24x7 online for assistance.</p>
-<p>Regards,<br />Nexus Technologies<br />UAN: 03000341140</p>
-<p> </p>
-                                            </p>
-                </blockquote>
+    <div class="row">
+        <div class="col-sm-12">
 
-                            </div>
-                                <div class="announcement-single">
-                <h3>
-                    <span class="label label-default">
-                        Jun 13th
-                    </span>
-                    <a href="/clientarea/index.php?rp=/announcements/58/Holidays-Eid-ul-Adha-2024.html">Holidays: Eid-ul-Adha 2024</a>
-                </h3>
+            <form method="post" action="/clientarea/index.php?rp=/login" class="login-form" role="form">
+<input type="hidden" name="token" value="6e389199cffbfdbb48e2ae1d30145c175176aebd" />
+                <div class="form-group">
+                    <label for="inputEmail">Email Address</label>
+                    <input type="email" name="username" class="form-control" id="inputEmail" placeholder="Enter email" autofocus>
+                </div>
 
-                <blockquote>
-                    <p>
-                                                    Dear Customer,
-Greetings!
-It is to inform you that Nexus Technologies will observe Eid holidays from
-Monday 17 Jun24 to Wednesday 19 Jun24.
-Staff (Sales + Billing + Development) will not be available on coming
-Saturday, Sunday and during Eid holidays.
-However our Technical Support staff will serve 24 x 7 except Chand Raat
-&amp; 1st Day of ...
-                            <a href="/clientarea/index.php?rp=/announcements/58/Holidays-Eid-ul-Adha-2024.html" class="label label-warning">Read More &raquo;</a>
-                                            </p>
-                </blockquote>
+                <div class="form-group">
+                    <label for="inputPassword">Password</label>
+                    <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Password" autocomplete="off" >
+                </div>
 
-                            </div>
-                        
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="rememberme" /> Remember Me
+                    </label>
+                </div>
+                                    <div class="text-center margin-bottom">
+                            <div class="text-center row">
+        
+                    <div id="google-recaptcha-domainchecker" class="form-group recaptcha-container"></div>
+        
+            </div>
+                    </div>
+                                <div align="center">
+                    <input id="login" type="submit" class="btn btn-primary btn-recaptcha" value="Login" /> <a href="/clientarea/index.php?rp=/password/reset" class="btn btn-default">Forgot Password?</a>
+                </div>
+            </form>
+
+        </div>
+        <div class="col-sm-5 hidden">
+                    </div>
+    </div>
+</div>
+
 
                 </div><!-- /.main-content -->
                             <div class="clearfix"></div>
